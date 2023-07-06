@@ -124,13 +124,13 @@ footer:
     links:
         Creative Commons:
             icon: fab fa-creative-commons
-#            url: https://creativecommons.org/
+            url: "http://not.ready"
         Attribution 4.0 International:
             icon: fab fa-creative-commons-by
-#            url: https://creativecommons.org/licenses/by/4.0/
+            url: "http://not.ready"
         Download on GitHub:
             icon: fab fa-github
-#            url: https://github.com/ppoffice/hexo-theme-icarus
+            url: "http://not.ready"
 # Article related configurations
 article:
     # Code highlight settings
@@ -167,9 +167,21 @@ search:
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
 comment:
-    type: disqus
-    # Disqus shortname
-    shortname: ''
+    type: gitalk
+    client_id: 3c8395a7e8cf9e4d832c
+    client_secret: 4d0996981510db5a53f72a57d4a45ac851dcc485
+    repo: public_blog
+    owner: captainstdin
+    admin:
+        - captainstdin
+    per_page: 20                    # 可选填
+    distraction_free_mode: false    # 可选填
+    pager_direction: last           # 可选填
+    create_issue_manually: false    # 可选填
+    proxy:                          # 可选填
+    flip_move_options:              # 可选填
+    enable_hotkey: true             # 可选填
+    language: zh-CN                 # 可选填
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 donates:
@@ -177,29 +189,29 @@ donates:
     -
         type: afdian
         # URL to the "Afdian.net" personal page
-        url: ''
+        url: 'https://www.baidu.com'
     # Alipay donate button configurations
     -
         type: alipay
         # Alipay qrcode image URL
         qrcode: ''
     # "Buy me a coffee" donate button configurations
-    -
-        type: buymeacoffee
+    #-
+        #type: buymeacoffee
         # URL to the "Buy me a coffee" page
-        url: ''
+        #url: ''
     # Patreon donate button configurations
-    -
-        type: patreon
+    #-
+        #type: patreon
         # URL to the Patreon page
-        url: ''
+        #url: ''
     # Paypal donate button configurations
-    -
-        type: paypal
+    #-
+        #type: paypal
         # Paypal business ID or email address
-        business: ''
+        #business: ''
         # Currency code
-        currency_code: USD
+       # currency_code: USD
     # Wechat donate button configurations
     -
         type: wechat
@@ -210,7 +222,7 @@ donates:
 share:
     type: sharethis
     # URL to the ShareThis share plugin script
-    install_url: ''
+    install_url: 'https://captainstdin.github.io/public_blog/'
 # Sidebar configurations.
 # Please be noted that a sidebar is only visible when it has at least one widget
 sidebar:
@@ -237,9 +249,9 @@ widgets:
         # Author's current location
         location: Carmona
         # URL or path to the avatar image
-        avatar: https://q1.qlogo.cn/g?b=qq&nk=272745091&s=640
+        avatar: /assets/qq.jpg
         # Whether show the rounded avatar image
-        avatar_rounded: false
+        avatar_rounded: true
         # Email address for the Gravatar
         gravatar: 
         # URL or path for the follow button
@@ -317,15 +329,15 @@ widgets:
         description: 
         # Feedburner ID
         feedburner_id: ''
-    # Google AdSense unit configurations
+    # Google AdSense unit configurations 谷歌广告
     -
-        # Where should the widget be placed, left sidebar or right sidebar
+#        # Where should the widget be placed, left sidebar or right sidebar
         position: left
         type: adsense
-        # AdSense client ID
-        client_id: ''
-        # AdSense AD unit ID
-        slot_id: ''
+#        # AdSense client ID
+        client_id: 'ca-pub-2173944553529565'
+#        # AdSense AD unit ID
+        slot_id: '9996629421'
     # Follow.it email subscription widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
@@ -415,9 +427,6 @@ plugins:
 # CDN provider settings
 # https://ppoffice.github.io/hexo-theme-icarus/Configuration/Theme/speed-up-your-site-with-custom-cdn/
 providers:
-    # Name or URL template of the JavaScript and/or stylesheet CDN provider
-    cdn: jsdelivr
-    # Name or URL template of the webfont CDN provider
-    fontcdn: google
-    # Name or URL of the fontawesome icon font CDN provider
-    iconcdn: fontawesome
+    cdn: '/public_blog/assets/cdn/${filename}.static'
+    fontcdn: '/public_blog/assets/fontcdn/${type}?family=${fontname}'
+    iconcdn: '/public_blog/assets/iconcdn/all.css'
