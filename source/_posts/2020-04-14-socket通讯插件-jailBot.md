@@ -1,5 +1,5 @@
 ---
-title: 2020-04-14_socket通讯插件-jailBot
+title: socket通讯插件-jailBot
 date: 2020-04-14 22:22:14
 tags: 机器人
 ---
@@ -381,7 +381,7 @@ C**CQ码动作**
     }
 
 
-[1]: http://oss.blog.mxact.com/typecho/uploads/2020/04/3028545767.jpg
-[2]: http://oss.blog.mxact.com/typecho/uploads/2020/04/2726954109.png
-[3]: http://oss.blog.mxact.com/typecho/uploads/2020/04/731715100.png
-[4]: http://oss.blog.mxact.com/typecho/uploads/2020/04/3827829048.cpk
+[1]: typecho/uploads/2020/04/3028545767.jpg
+[2]: typecho/uploads/2020/04/2726954109.png
+[3]: typecho/uploads/2020/04/731715100.png
+[4]: typecho/uploads/2020/04/3827829048.cpk
