@@ -3,7 +3,7 @@ subtitle: 一个几乎永久的web blog
 description: ''
 keywords: null
 author: 舰长胡椒
-language: en
+language: zh-CN
 timezone: Asia/Shanghai
 url: https://captainstdin.github.io/public_blog
 root: /public_blog/
@@ -48,6 +48,7 @@ index_generator:
   path: ''
   per_page: 10
   order_by: '-date'
+  pagination_dir: page
 default_category: uncategorized
 category_map: null
 tag_map: null
