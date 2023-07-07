@@ -19,14 +19,14 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: ':lang'
-skip_render: null
+skip_render: 'assets/**/*'
 new_post_name: ':title.md'
 default_layout: post
 titlecase: false
 external_link:
   enable: true
   field: site
-  exclude: ''
+  exclude:
 filename_case: 0
 render_drafts: false
 post_asset_folder: true

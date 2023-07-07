@@ -427,6 +427,6 @@ plugins:
 # CDN provider settings
 # https://ppoffice.github.io/hexo-theme-icarus/Configuration/Theme/speed-up-your-site-with-custom-cdn/
 providers:
-    cdn: '/public_blog/assets/cdn/${filename}.static'
+    cdn: '/public_blog/assets/cdn/${filename}'
     fontcdn: '/public_blog/assets/fontcdn/${type}?family=${fontname}'
     iconcdn: '/public_blog/assets/iconcdn/all.css'
