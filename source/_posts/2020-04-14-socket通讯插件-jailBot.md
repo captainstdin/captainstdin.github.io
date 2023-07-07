@@ -1,6 +1,8 @@
 ---
 title: socket通讯插件-jailBot
 date: 2020-04-14 22:22:14
+categories:
+  - 默认
 tags: 机器人
 ---
 
