@@ -4,7 +4,7 @@ version: 5.1.0
 variant: cyberpunk
 
 # Path or URL to the website's logo
-logo: /img/logo.svg
+#logo: /assets/qq.jpg
 # Page metadata configurations
 head:
     # URL or path to the website's icon
@@ -124,13 +124,13 @@ footer:
     links:
         Creative Commons:
             icon: fab fa-creative-commons
-            url: "http://not.ready"
+            url: "javascript:void(0);"
         Attribution 4.0 International:
             icon: fab fa-creative-commons-by
-            url: "http://not.ready"
-        Download on GitHub:
-            icon: fab fa-github
-            url: "http://not.ready"
+            url: "javascript:void(0);"
+#        Download on GitHub:
+#            icon: fab fa-github
+#            url: "http://not.ready"
 # Article related configurations
 article:
     # Code highlight settings
@@ -264,9 +264,9 @@ widgets:
 #            Facebook:
 #                icon: fab fa-facebook
 #                url: https://facebook.com
-#            Twitter:
-#                icon: fab fa-twitter
-#                url: https://twitter.com
+            Twitter:
+                icon: fab fa-twitter
+                url: https://twitter.com
 #            Dribbble:
 #                icon: fab fa-dribbble
 #                url: https://dribbble.com
