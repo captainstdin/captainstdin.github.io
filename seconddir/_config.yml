@@ -1,12 +1,12 @@
 title: captain主页
 subtitle: 一个几乎永久的web blog
-description: '胡椒舰长的个人主页'
+description: ''
 keywords: null
 author: 舰长胡椒
 language: zh-CN
 timezone: Asia/Shanghai
-url: https://b.qqfirst.com
-root: /
+url: https://captainstdin.github.io/public_blog
+root: /public_blog/
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
 pretty_urls:
