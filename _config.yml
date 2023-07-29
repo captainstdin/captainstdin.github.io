@@ -32,6 +32,9 @@ render_drafts: false
 post_asset_folder: true
 relative_link: false
 future: true
+marked:
+  prependRoot: true
+  postAsset: true
 highlight:
   enable: true
   line_number: true
