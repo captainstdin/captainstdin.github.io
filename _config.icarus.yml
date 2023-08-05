@@ -170,7 +170,7 @@ comment:
     type: gitalk
     client_id: 3c8395a7e8cf9e4d832c
     client_secret: 4d0996981510db5a53f72a57d4a45ac851dcc485
-    repo: public_blog
+    repo: captainstdin.github.io
     owner: captainstdin
     admin:
         - captainstdin
