@@ -4,11 +4,12 @@ version: 5.1.0
 variant: cyberpunk
 
 # Path or URL to the website's logo
-#logo: /assets/qq.jpg
+#logo: "/assets/qq.jpg"
 # Page metadata configurations
 head:
     # URL or path to the website's icon
-    favicon: /img/favicon.svg
+    #favicon: /img/favicon.svg
+    favicon: /assets/230x0w.webp
     # Web application manifests configuration
     # https://developer.mozilla.org/en-US/docs/Web/Manifest
     manifest:
@@ -222,7 +223,7 @@ donates:
 share:
     type: sharethis
     # URL to the ShareThis share plugin script
-    install_url: 'https://b.qqfirst.com'
+    install_url: 'https://captainstdin.github.io'
 # Sidebar configurations.
 # Please be noted that a sidebar is only visible when it has at least one widget
 sidebar:
@@ -247,7 +248,8 @@ widgets:
         # Author title
         author_title: 一个几乎永久的web blog
         # Author's current location
-        location: Carmona
+        #location: Carmona
+        location: "SAUMLAKI Station"
         # URL or path to the avatar image
         avatar: /assets/qq.jpg
         # Whether show the rounded avatar image
