@@ -1,11 +1,11 @@
-title: captain主页
-subtitle: 一个几乎永久的web blog
-description: '胡椒舰长的个人主页'
-keywords: null
-author: 舰长胡椒
+title: "舰长胡椒"
+subtitle: '一个几乎永久的web blog'
+description: '胡椒舰长的个人主页，主要是记录一些日常memos'
+keywords: "胡椒舰长,舰长胡椒,胡椒博客"
+author: "舰长胡椒"
 language: zh-CN
 timezone: Asia/Shanghai
-url: https://b.qqfirst.com
+url: https://captainstdin.github.io
 root: /
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
@@ -67,6 +67,10 @@ ignore: null
 theme: icarus
 deploy:
   type: ''
+  #type: git
+  repo: https://github.com/<username>/<project>
+    # example, https://github.com/hexojs/hexojs.github.io
+  branch: gh-pages
 widgets:
   - type: profile
     position: left
