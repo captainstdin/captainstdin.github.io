@@ -3,6 +3,7 @@ title: MacMini的家庭NAS搭建大全
 categories:
   - 默认
 date: 2023-09-25 12:49:11
+cover: ./2023/09/25/2023-09-25Macmini的家庭NAS搭建大全/macmini.png
 tags: 
   - macmini
   - NAS
@@ -11,7 +12,7 @@ tags:
 
 ## 拼夕夕 2899 RMB
 
-![MacMini M2](./macmini.png)
+[//]: # (![MacMini M2]&#40;./macmini.png&#41;)
 
 <!-- more -->
 <!-- toc -->
