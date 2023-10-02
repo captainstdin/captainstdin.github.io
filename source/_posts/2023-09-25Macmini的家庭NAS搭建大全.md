@@ -60,15 +60,19 @@ drwxr-xr-x@  6 nas    staff    192  9 22 19:43 src
 drwxrwxrwx   8 admin  staff    256  9 23 13:26 trassmission
 ```
 
+<div class="justified-gallery">
+
+ ![1.pt下载器](./trassmission.png)  
+ ![2.在线网盘](./alist.png) 
+ ![3.ddns动态IPv6公网](./ddns.png) 
+![4.内网测试speedtest](./speedtest.png)
+ ![5.文件共享](./smb.png)      
+  ![6.内网测速iperf](./iperf.png)  
+ ![7.iCloud缓存加速器](./icloudproxy.png) 
+
+</div>
 
 
-
-|                                      |                                     | 
-|:------------------------------------:|:-----------------------------------:|
-|    ![1.pt下载器](./trassmission.png)    |       ![2.在线网盘](./alist.png)        |
-|    ![3.ddns动态IPv6公网](./ddns.png)     | ![4.内网测试speedtest](./speedtest.png) |
-|         ![5.文件共享](./smb.png)         |     ![6.内网测速iperf](./iperf.png)     |
-| ![7.iCloud缓存加速器](./icloudproxy.png)  | |
 
 
 
