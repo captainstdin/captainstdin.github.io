@@ -3,6 +3,7 @@ title: MacMini的家庭NAS搭建大全
 categories:
   - 默认
 date: 2023-09-25 12:49:11
+cover: ./2023/09/25/2023-09-25Macmini的家庭NAS搭建大全/macmini.png
 tags: 
   - macmini
   - NAS
@@ -11,7 +12,7 @@ tags:
 
 ## 拼夕夕 2899 RMB
 
-![MacMini M2](./macmini.png)
+[//]: # (![MacMini M2]&#40;./macmini.png&#41;)
 
 <!-- more -->
 <!-- toc -->
@@ -60,15 +61,19 @@ drwxr-xr-x@  6 nas    staff    192  9 22 19:43 src
 drwxrwxrwx   8 admin  staff    256  9 23 13:26 trassmission
 ```
 
+<div class="justified-gallery">
+
+ ![1.pt下载器](./trassmission.png)  
+ ![2.在线网盘](./alist.png) 
+ ![3.ddns动态IPv6公网](./ddns.png) 
+![4.内网测试speedtest](./speedtest.png)
+ ![5.文件共享](./smb.png)      
+  ![6.内网测速iperf](./iperf.png)  
+ ![7.iCloud缓存加速器](./icloudproxy.png) 
+
+</div>
 
 
-
-|                                      |                                     | 
-|:------------------------------------:|:-----------------------------------:|
-|    ![1.pt下载器](./trassmission.png)    |       ![2.在线网盘](./alist.png)        |
-|    ![3.ddns动态IPv6公网](./ddns.png)     | ![4.内网测试speedtest](./speedtest.png) |
-|         ![5.文件共享](./smb.png)         |     ![6.内网测速iperf](./iperf.png)     |
-| ![7.iCloud缓存加速器](./icloudproxy.png)  | |
 
 
 
@@ -138,17 +143,14 @@ services:
     restart: always
 ```
 
-1. docker参数内容
-  - `/home` 是为了后面alist添加本地储存的目录
-  -  通过 `http://hostname.local:5244` 访问
-2. 如何设置初始化密码
+- docker参数内容
+  1. `/home` 是为了后面alist添加本地储存的目录
+  2. 通过 `http://hostname.local:5244` 访问
+- 如何设置初始化密码 `123456`
+  1.  `docker exec -it alist ./alist set admin 123456`
 
 
-
-
-
-
-## 0x10 如何广播自己的局域网域名`pc.local` mDns
+## 9. 如何广播自己的局域网域名`pc.local` mDns
 
 ```sh 
  apk add avahi

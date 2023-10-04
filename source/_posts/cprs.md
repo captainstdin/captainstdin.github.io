@@ -4,12 +4,14 @@ title: cprs
 categories:
   - 默认
 date: 2023-07-07 12:10:36
+cover: ./2023/07/07/cprs/vultr.png
 tags:
   - cprs
 ---
 
 
 ## vultr.com 2.5美元/月付 服务器
+
 <img src="{% asset_path vultr.png  This is an example image %}">
 
 <!-- more -->
