@@ -94,9 +94,9 @@ services:
     image: linuxserver/transmission:latest
     container_name: transmission
     environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=Etc/UTC
+      #- PUID=1000
+      #- PGID=1000
+      #- TZ=Etc/UTC
       - USER = admin
       - PASS =  password
       - TRANSMISSION_WEB_HOME = /usr/share/transmission/public_html #
@@ -132,9 +132,10 @@ services:
     image: xhofe/alist:main
     container_name: alist
     environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=Etc/UTC
+      - a=b
+      #- PUID=1000
+      #- PGID=1000
+      #- TZ=Etc/UTC
     volumes:
       - $PWD/home/:/home
       - $PWD/etc/:/opt/alist/data
