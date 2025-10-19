@@ -26,10 +26,11 @@ skip_render:
 new_post_name: ':title.md'
 default_layout: post
 titlecase: false
-external_link:
-  enable: true
-  field: site
-  exclude:
+#external_link废弃
+# external_link:
+#   enable: true
+#   field: site
+#   exclude:
 filename_case: 0
 render_drafts: false
 post_asset_folder: true

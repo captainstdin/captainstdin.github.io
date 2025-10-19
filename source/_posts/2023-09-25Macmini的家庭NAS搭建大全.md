@@ -4,6 +4,7 @@ categories:
   - 默认
 date: 2023-09-25 12:49:11
 cover: ./2023/09/25/2023-09-25Macmini的家庭NAS搭建大全/macmini.png
+thumbnail: ./2023/09/25/2023-09-25Macmini的家庭NAS搭建大全/macmini.png
 tags: 
   - macmini
   - NAS
